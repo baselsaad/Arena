@@ -4,12 +4,10 @@ A lightweight, single-header C++ Arena Allocator with automatic destructor manag
 
 Side project to refresh my C++ memory.
 
-## Features
+## Disclaimer
 
 - Pre-allocates a fixed block of memory
 - Alignment
-- Allocates objects linearly from that block
-- Calls destructors automatically on `Reset()` or `~Arena()`
 - Not thread-safe
 - Automatic destructor on `Reset()` or `~Arena()`
 - O(1) allocations
